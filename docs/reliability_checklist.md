@@ -1,0 +1,12 @@
+# Agent Reliability Checklist
+- [ ] Each agent has one clear role and goal
+- [ ] Agents use only provided context (no new claims)
+- [ ] Every fact has a named source
+- [ ] Sources opened and verified manually
+- [ ] No infinite loops (max iterations set)
+- [ ] Outdated info checked (dates/versions)
+- [ ] No unsafe advice in output
+- [ ] Human reviews final output
+- [ ] No access to private accounts/keys in prompts
+- [ ] Agents run in a sandbox; API key stored in .env
+- [ ] Output compared against single-prompt baseline
