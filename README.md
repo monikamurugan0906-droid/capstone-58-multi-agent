@@ -22,9 +22,12 @@ More agents did not automatically mean more reliability. The Researcher step was
 - `src/` demo-level CrewAI code (agents, baseline, automated pipeline). Note: the demo results above come from the manual run; the code is provided for automation and was not used for these logs.
 
 ## Setup (for the code)
+```
 pip install -r requirements.txt
-Copy .env.example to .env and add a free Gemini API key
+cp .env.example .env
 python src/run_pipeline.py "your topic"
+```
+Add a free Gemini API key in the .env file before running.
 
 ## Tools used
 ChatGPT, Gemini, Claude, CrewAI (code), Gamma, GitHub
